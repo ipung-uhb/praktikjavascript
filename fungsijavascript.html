@@ -1,0 +1,19 @@
+function namaFungsi(){
+    console.log("Hello World!");
+}
+
+//Ekspresi
+var namaFungsi = function(){
+    console.log("Hello World!");
+}
+
+//Arrowfunction
+var namaFungsi = () => {
+    console.log("Hello World!");
+}
+
+// atau seperti ini (jika isi fungsi hanya satu baris):
+var namaFungsi = () => console.log("Hello World!");
+
+//construktor
+var namaFungsi = new Function('console.log("Hello World!");');
